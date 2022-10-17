@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - print a code pf line using puts
+/**
+ * main - Entry point
  *
  * Return: (0)
  */
