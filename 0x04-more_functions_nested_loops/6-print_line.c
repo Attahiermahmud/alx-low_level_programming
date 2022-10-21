@@ -2,7 +2,8 @@
 
 /**
  * print_line - prints a straight line using '_'
- * @c: where n is the number of '_'
+ * @n: where n is the number of '_'
+ *
  */
 void print_line(int n)
 {
