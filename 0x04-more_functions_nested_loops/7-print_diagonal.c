@@ -2,10 +2,12 @@
 
 
 /**
- * print_diagonal - draws a digonal line
- * @c: print a diagonal with '\'
+ * print_diagonal - funtion that draws a digonal line
+ * @n: Where n is the number of times
+ * the character \ should be printed
+ *
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x, y;
 
@@ -14,7 +16,7 @@ void print_line(int n)
 
 	for (x = 0; x < n; x++)
 	{
-		fors (y = 0; y < n; y++)
+		for (y = 0; y < n; y++)
 			_putchar(' ');
 
 		_putchar('\\');
